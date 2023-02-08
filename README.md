@@ -1,2 +1,3 @@
 # BreastCancerWisconsin
 ML model for Breast Cancer Wisconsin (Diagnostic) 
+The Wisconsin breast cancer dataset is used to train both K-Nearest Neighbors (KNN) classifier and RandomForest models in the algorithm. The features and target are established, and the dataset is preprocessed to replace missing values and delete the id column. The model is then trained using the training data once the data has been divided into training and testing sets. Using a confusion matrix and a classification report, the trained classifier assesses the performance of the model by making predictions on the test data. Additionally, the accuracy rating is computed.
